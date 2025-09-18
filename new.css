@@ -19,7 +19,7 @@ html{
   top: 0;
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   padding: 0 20px;
   height: 70px;
@@ -79,9 +79,13 @@ nav {
 
 /* Hero Section */
 .home-section {
+  justify-content: center;
   text-align: center;
   margin-top: 60px;
   color: white;
+}
+.ho{
+  justify-content: center;
 }
 
 .ho img {
@@ -186,7 +190,7 @@ nav {
   display: grid;
   grid-template-columns:300px 300px 300px;
   grid-template-rows: 300px 300px 300px;
-  gap: 50px;
+  gap: 20px;
   padding: 20px;
   justify-content: center;
 }
@@ -225,13 +229,14 @@ nav {
 .content{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 
 }
 .box45{
   padding: 100px 30px;
   height: 200px;
-  width: 300px;
+  width: 280px;
   background: linear-gradient(rgb(239, 194, 111),rgb(206, 155, 155));
   border-radius: 10px;
   align-items: center;
@@ -258,12 +263,13 @@ nav {
 }
 .clebrity2{
   /* width: 100%; */
-  padding: 20px 40px;
+  padding: 20px 20px;
   height: auto;
 
 }
 .image1{
 display: flex;
+justify-content: center;
 gap: 10px;
 
 
@@ -309,7 +315,7 @@ justify-content: center;
 }
 .contact-box{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .contact-form input,textarea{
   width: 500px ;

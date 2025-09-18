@@ -27,8 +27,8 @@
   }
 
   .grid1 {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
     gap: 20px;
   }
 
@@ -39,6 +39,7 @@
 
   .box45 {
     width: 90%;
+    height: 300px;
     padding: 50px 20px;
     margin-bottom: 40px;
   }
@@ -131,8 +132,8 @@
 
   .box45 {
     width: 95%;
-    height: 300px;
-    padding: 40px 15px;
+    height: 450px;
+    padding: 0px 15px;
   }
 
   .image1, .image2 {
@@ -147,5 +148,81 @@
     font-size: 0px;
     padding: auto;
     margin: auto;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .auth-buttons {
+    margin-top: 10px;
+  }
+
+  .ho {
+    width: 90%;
+    margin: auto;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .grid1 {
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box45 {
+    width: 90%;
+    height: 300px;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+  }
+
+  .image-test {
+    position: relative;
+    bottom: auto;
+    margin: 0 auto 20px;
+  }
+
+  .image1, .image2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form input, 
+  .contact-form textarea {
+    width: 90%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-add {
+    text-align: center;
+    margin-bottom: 30px;
   }
 }
