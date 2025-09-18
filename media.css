@@ -80,9 +80,16 @@
   .navbar h1 {
     font-size: 24px;
   }
+  body{
+  background-image: url(./photoshop/mobile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
 
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 10px;
     gap: 10px;
   }
 
@@ -95,13 +102,26 @@
     font-size: 18px;
     padding: 0 10px;
   }
+  .navbar{
+    background: linear-gradient(white,rgb(218, 120, 120));
+    position: static;
+  }
 
   .search-bar input {
     width: 90%;
   }
 
   .grid1 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px;
+  }
+
+  .tag1 li a{
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .clebrity h1{
+    font-size: 28px;
   }
 
   .box {
@@ -111,6 +131,7 @@
 
   .box45 {
     width: 95%;
+    height: 300px;
     padding: 40px 15px;
   }
 
@@ -119,11 +140,12 @@
   }
 
   .contact-sumit {
-    width: 90%;
+    width: 50%;
   }
 
   .contact-form p {
-    width: 90%;
+    font-size: 0px;
+    padding: auto;
     margin: auto;
   }
 }
