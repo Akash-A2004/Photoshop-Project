@@ -1,157 +1,5 @@
 /* media.css */
 /* For tablets: width between 481px and 768px */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-    text-align: center;
-  }
-
-  nav {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .auth-buttons {
-    margin-top: 10px;
-  }
-
-  .ho {
-    width: 90%;
-    margin: auto;
-  }
-
-  .search-bar input {
-    width: 90%;
-  }
-
-  .grid1 {
-    grid-template-columns: 300px 300px;
-    grid-template-rows: 300px 300px;
-    gap: 20px;
-  }
-
-  .content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .box45 {
-    width: 90%;
-    height: 300px;
-    padding: 50px 20px;
-    margin-bottom: 40px;
-  }
-
-  .image-test {
-    position: relative;
-    bottom: auto;
-    margin: 0 auto 20px;
-  }
-
-  .image1, .image2 {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .contact-box {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-form input, 
-  .contact-form textarea {
-    width: 90%;
-  }
-
-  .contact-form {
-    width: 100%;
-  }
-
-  .contact-add {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-}
-
-
-/* For phones: width 480px and below */
-@media only screen and (max-width: 480px) {
-  .navbar h1 {
-    font-size: 24px;
-  }
-  body{
-  background-image: url(./photoshop/mobile.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  }
-
-  .nav-links {
-    flex-direction: row;
-    font-size: 10px;
-    gap: 10px;
-  }
-
-  .auth-buttons button {
-    width: 100px;
-    padding: 8px;
-  }
-
-  .ho h1 {
-    font-size: 18px;
-    padding: 0 10px;
-  }
-  .navbar{
-    background: linear-gradient(white,rgb(218, 120, 120));
-    position: static;
-  }
-
-  .search-bar input {
-    width: 90%;
-  }
-
-  .grid1 {
-    grid-template-columns: 300px;
-    grid-template-rows: 300px;
-  }
-
-  .tag1 li a{
-    font-size: 18px;
-    padding: 0 10px;
-  }
-  .clebrity h1{
-    font-size: 28px;
-  }
-
-  .box {
-    width: 90%;
-    margin: auto;
-  }
-
-  .box45 {
-    width: 95%;
-    height: 450px;
-    padding: 0px 15px;
-  }
-
-  .image1, .image2 {
-    gap: 15px;
-  }
-
-  .contact-sumit {
-    width: 50%;
-  }
-
-  .contact-form p {
-    font-size: 0px;
-    padding: auto;
-    margin: auto;
-  }
-}
-
-
 @media only screen and (max-width: 1024px) {
   .navbar {
     flex-direction: column;
@@ -179,6 +27,83 @@
   }
 
   .grid1 {
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 20px;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box45 {
+    width: 90%;
+    height: 300px;
+    padding: 50px 20px;
+    margin-bottom: 40px;
+  }
+
+  .image-test {
+    position: relative;
+    bottom: auto;
+    margin: 0 auto 20px;
+  }
+
+  .image1, .image2 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form input, 
+  .contact-form textarea {
+    width: 90%;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-add {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    position: static;
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .auth-buttons {
+    margin-top: 10px;
+  }
+
+  .ho {
+    width: 90%;
+    margin: auto;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .grid1 {
     grid-template-columns: 300px 300px;
     grid-template-rows: 300px 300px;
     gap: 20px;
@@ -225,4 +150,97 @@
     text-align: center;
     margin-bottom: 30px;
   }
+    .contact-form p {
+    font-size: 0px;
+    padding: auto;
+    margin: auto;
+  }
 }
+@media only screen and (max-width: 662px) {
+    .grid1{
+    grid-template-columns: 300px ;
+    grid-template-rows: 300px ;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+
+/* For phones: width 480px and below */
+@media only screen and (max-width: 480px) {
+  .navbar h1 {
+    font-size: 24px;
+  }
+  body{
+  background-image: url(./photoshop/mobile.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    font-size: 10px;
+    gap: 20px;
+  }
+
+  .auth-buttons button {
+    width: 100px;
+    padding: 8px;
+  }
+
+  .ho h1 {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .navbar{
+    background: linear-gradient(white,rgb(218, 120, 120));
+    position: static;
+  }
+
+  .search-bar input {
+    width: 90%;
+  }
+
+  .grid1{
+    grid-template-columns: 300px ;
+    grid-template-rows: 300px ;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .tag1 li a{
+    font-size: 18px;
+    padding: 0 10px;
+  }
+  .clebrity h1{
+    font-size: 28px;
+  }
+
+  .box {
+    width: 90%;
+    margin: auto;
+  }
+
+  .box45 {
+    width: 95%;
+    height: 500px;
+    padding: 0px 15px;
+  }
+
+  .image1, .image2 {
+    gap: 15px;
+  }
+
+  .contact-sumit {
+    width: 50%;
+  }
+
+  .contact-form p {
+    font-size: 0px;
+    padding: auto;
+    margin: auto;
+  }
+}
+
+

@@ -192,7 +192,7 @@ nav {
   grid-template-rows: 300px 300px 300px;
   gap: 20px;
   padding: 20px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .box {
@@ -318,7 +318,7 @@ justify-content: center;
   justify-content: center;
 }
 .contact-form input,textarea{
-  width: 500px ;
+  width: 450px ;
   height: 60px;
   margin: 20px;
   border-radius: 10px;
