@@ -179,10 +179,17 @@
   }
 
   .nav-links {
-    flex-direction: row;
+    justify-content: center;
+    /* width: 370px; */
+    display: flex;
+    flex-direction: column;
     font-size: 10px;
+    font-weight: bold;
     gap: 20px;
+    padding: 0;
+    margin: 0;
   }
+
 
   .auth-buttons button {
     width: 100px;
@@ -194,7 +201,7 @@
     padding: 0 10px;
   }
   .navbar{
-    background: linear-gradient(white,rgb(218, 120, 120));
+    /* background: linear-gradient(white,rgb(218, 120, 120)); */
     position: static;
   }
 
@@ -224,7 +231,7 @@
 
   .box45 {
     width: 95%;
-    height: 500px;
+    height: 450px;
     padding: 0px 15px;
   }
 
